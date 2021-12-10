@@ -129,14 +129,19 @@ The variance of the distribution is $\sigma^{2}$.
     
     <item>
       <title>A Custom CNN to Classify Satellite Imagery</title>
-      <link>https://jorgedelacalmedina.github.io/project/internal-project/</link>
+      <link>https://jorgedelacalmedina.github.io/project/a-convolutional-neural-network-to-classify-satellite-imagery/</link>
       <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://jorgedelacalmedina.github.io/project/internal-project/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <guid>https://jorgedelacalmedina.github.io/project/a-convolutional-neural-network-to-classify-satellite-imagery/</guid>
+      <description>&lt;p&gt;In this project, we construct a custom Convolutional Neural Network (CNN) for satellite image classification. We build upon a model proposed by [Simonyan and Zisserman, 2014] and used by the Stanford Visual Recognition team, which stands out for its accuracy in image recognition settings and came to be known as VGGNet. A slightly adjusted version of the VGGNet architecture will serve us as a baseline model. We optimize it with respect to the task at stake, changing some features of its architecture and tuning specific hyperparameters. This process results in a customized architecture. We further experiment with different data inputs: the raw data provided by the EuroSAT dataset, the same data but with balanced labels, and the balanced data with a false-color NGR coding instead of standard RGB. For proper comparison, we take two deep models as benchmarks. We implement transfer learning on the DenseNet201 and the VGG-16 architectures.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Collective Mood-States and Investment Behaviour during a Global Pandemic</title>
+      <link>https://jorgedelacalmedina.github.io/project/collective-mood-states-and-investment-behaviour-during-a-global-pandemic/</link>
+      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://jorgedelacalmedina.github.io/project/collective-mood-states-and-investment-behaviour-during-a-global-pandemic/</guid>
+      <description>&lt;p&gt;In this paper, we want to investigate whether collective mood, triggered by a real event, has some influence on stock prices considering a causal structure that determines the mechanisms by which collective mood affects stock prices. We take the 2019-2020 coronavirus (SARS-CoV-2) pandemic to be an appropriate example of a real event that influences stock prices directly and causes a change in collective mood. The pandemic affects the world economy and has high media coverage; we assume thus an impact on stock markets. It represents an exogenous variation in the set of beliefs individuals have about the world but also affects their emotional states significantly (which allows us to investigate the role emotional states play in investment behaviour in the first place). To measure the variation in collective mood states, we develop a tailor-made sentiment analysis tool classifying tweets into positive/negative, active/passive and weak/strong to build a time series reflecting average Twitter sentiment over time. We perform on the resulting sentiment time series a Vector Autoregression (VAR) analysis by regressing the Standard &amp;amp; Poor’s (SP) 500 and Dow Jones Industrial Average (DJI) index to our sentiment time series. Subsequently, by conducting Granger causality tests followed by a Johansen co-integration test, we investigate whether our sentiment categories have an effect on stock prices.&lt;/p&gt;
 </description>
     </item>
     
@@ -245,7 +250,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-837192564&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-198753642&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -255,7 +260,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-837192564&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-198753642&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -686,14 +691,6 @@ $$&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>External Project</title>
-      <link>https://jorgedelacalmedina.github.io/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://jorgedelacalmedina.github.io/project/external-project/</guid>
-      <description></description>
     </item>
     
     <item>

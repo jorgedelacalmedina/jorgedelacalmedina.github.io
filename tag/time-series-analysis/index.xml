@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | jorge de la cal medina</title>
-    <link>https://jorgedelacalmedina.github.io/project/</link>
-      <atom:link href="https://jorgedelacalmedina.github.io/project/index.xml" rel="self" type="application/rss+xml" />
-    <description>Projects</description>
+    <title>Time Series Analysis | jorge de la cal medina</title>
+    <link>https://jorgedelacalmedina.github.io/tag/time-series-analysis/</link>
+      <atom:link href="https://jorgedelacalmedina.github.io/tag/time-series-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Time Series Analysis</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 18 Nov 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jorgedelacalmedina.github.io/media/icon_hu4b3f6377c7303de9b28b0102381835f4_3695020_512x512_fill_lanczos_center_3.png</url>
-      <title>Projects</title>
-      <link>https://jorgedelacalmedina.github.io/project/</link>
+      <title>Time Series Analysis</title>
+      <link>https://jorgedelacalmedina.github.io/tag/time-series-analysis/</link>
     </image>
-    
-    <item>
-      <title>A Custom CNN to Classify Satellite Imagery</title>
-      <link>https://jorgedelacalmedina.github.io/project/a-convolutional-neural-network-to-classify-satellite-imagery/</link>
-      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://jorgedelacalmedina.github.io/project/a-convolutional-neural-network-to-classify-satellite-imagery/</guid>
-      <description>&lt;p&gt;In this project, we construct a custom Convolutional Neural Network (CNN) for satellite image classification. We build upon a model proposed by [Simonyan and Zisserman, 2014] and used by the Stanford Visual Recognition team, which stands out for its accuracy in image recognition settings and came to be known as VGGNet. A slightly adjusted version of the VGGNet architecture will serve us as a baseline model. We optimize it with respect to the task at stake, changing some features of its architecture and tuning specific hyperparameters. This process results in a customized architecture. We further experiment with different data inputs: the raw data provided by the EuroSAT dataset, the same data but with balanced labels, and the balanced data with a false-color NGR coding instead of standard RGB. For proper comparison, we take two deep models as benchmarks. We implement transfer learning on the DenseNet201 and the VGG-16 architectures.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Collective Mood-States and Investment Behaviour during a Global Pandemic</title>
