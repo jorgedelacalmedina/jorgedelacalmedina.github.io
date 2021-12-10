@@ -137,11 +137,33 @@ The variance of the distribution is $\sigma^{2}$.
     </item>
     
     <item>
+      <title>Causal Models and External Validity of Randomized Experiments</title>
+      <link>https://jorgedelacalmedina.github.io/project/causal-models-and-external-validity-of-randomized-experiments/</link>
+      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://jorgedelacalmedina.github.io/project/causal-models-and-external-validity-of-randomized-experiments/</guid>
+      <description>&lt;p&gt;It is argued in this paper that causal models can be used to account for the external validity of causal claims evaluated by randomized experiments. This replies to concerns voiced about randomized experiments that the external validity of their results was not warranted. Causal models lend themselves to predict the effectiveness of RCT-evaluated policies in populations beyond the study sample. These predictions allow to make rigorous comparisons of cost-effectiveness between policies, based on theory and observational data so that for a specific population the optimal policy can be decided upon.
+It is further argued that scientists, when conducting randomized experiments to evaluate a policy?s effectiveness, have already implicit causal knowledge that can inform a causal model. Nonetheless, it must be noted that causal claims based on causal models are only as good as the model?s assumptions. If the assumptions are wrong, the conclusion is going to be wrong as well. However, it is argued in this paper that making causal assumptions is necessary to do predictions about policy-effectiveness. External validity is not reducible to statistics but needs to be dealt with as a scientific process in which theories and causal considerations play an undeniable role.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Collective Mood-States and Investment Behaviour during a Global Pandemic</title>
       <link>https://jorgedelacalmedina.github.io/project/collective-mood-states-and-investment-behaviour-during-a-global-pandemic/</link>
       <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://jorgedelacalmedina.github.io/project/collective-mood-states-and-investment-behaviour-during-a-global-pandemic/</guid>
       <description>&lt;p&gt;In this paper, we want to investigate whether collective mood, triggered by a real event, has some influence on stock prices considering a causal structure that determines the mechanisms by which collective mood affects stock prices. We take the 2019-2020 coronavirus (SARS-CoV-2) pandemic to be an appropriate example of a real event that influences stock prices directly and causes a change in collective mood. The pandemic affects the world economy and has high media coverage; we assume thus an impact on stock markets. It represents an exogenous variation in the set of beliefs individuals have about the world but also affects their emotional states significantly (which allows us to investigate the role emotional states play in investment behaviour in the first place). To measure the variation in collective mood states, we develop a tailor-made sentiment analysis tool classifying tweets into positive/negative, active/passive and weak/strong to build a time series reflecting average Twitter sentiment over time. We perform on the resulting sentiment time series a Vector Autoregression (VAR) analysis by regressing the Standard &amp;amp; Poor’s (SP) 500 and Dow Jones Industrial Average (DJI) index to our sentiment time series. Subsequently, by conducting Granger causality tests followed by a Johansen co-integration test, we investigate whether our sentiment categories have an effect on stock prices.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Effects of Universal Basic Income on Labour Force Participation - A Meta-Analysis</title>
+      <link>https://jorgedelacalmedina.github.io/project/the-effects-of-universal-basic-income-on-labour-force-participation-a-meta-analysis/</link>
+      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://jorgedelacalmedina.github.io/project/the-effects-of-universal-basic-income-on-labour-force-participation-a-meta-analysis/</guid>
+      <description>&lt;p&gt;In this paper we conduct a meta-analysis looking into the effects of UBI on participation in the labour market. This question is crucial to decide whether we should endorse this policy, and all the more relevant since UBI is currently a debated topic.
+Because UBI involves a considerable magnitude and rather pervasive changes in the socio-economic structure, it is not normally feasibility, for political and/or financiation issues. To this date it has not been implemented fully, as prescribed by theory. In order to conduct an evidence-based analysis, we thus draw evidence from programs which involve policies featuring similar aspects as UBI. However imperfect these proxies might be, they are the only source of experimental evidence available. Arguably, our results will still give us better a standpoint to (try to) answer the question at stake. How much better off we will be dependent on the quality of the gathered evidence and meaningfulness of the analysis.
+We collect evidence by conducting a systematic search for interventional data. First we identify all conducted programs featuring different types of intervention designs with similarities to UBI. For each intervention we then search for studies that meet our pre-defined criteria of eligibility. This systematic approach gives us confidence that our resulting set of studies contain all the existing and relevant interventions. Subsequently we rate the quality of each study according to the GRADE framework (Guyatt et al., 2008). As stated, this will allow us to place a specific, though subjective degree of confidence in the results.
+The results of our meta-analyses indicate a negative effect of UBI-like interventions on male and female labour supply, whereas the effect seems to be more negative for men. Therefore, our findings are in line with critical voices about UBI?s benefits. Furthermore, we found no evidence of publication bias.&lt;/p&gt;
 </description>
     </item>
     
@@ -250,7 +272,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-936275418&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-264975813&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -260,7 +282,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-936275418&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-264975813&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
