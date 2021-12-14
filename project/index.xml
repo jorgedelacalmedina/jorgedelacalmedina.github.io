@@ -22,6 +22,23 @@
     </item>
     
     <item>
+      <title>Analysis of Testing-based Model Selection with Graphical Considerations (working paper, version 14.12.2021)</title>
+      <link>https://jorgedelacalmedina.github.io/project/analysis-of-testing-based-model-selection-with-graphical-considerations/</link>
+      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://jorgedelacalmedina.github.io/project/analysis-of-testing-based-model-selection-with-graphical-considerations/</guid>
+      <description>&lt;p&gt;In this thesis, I present the AdJ algorithm, a novel method for covariate selection that is
+appropriate for post-double selection. It exploits conditional independencies, much like
+similar graphical methods aimed at structure-learning, such as the PC-algorithm. Note,
+however, that AdJ?s goal is not to learn about the structure per se, but merely to find the set
+of parents of one target variable. This means that usually much less causal information than
+the entire DAG is retrieved. It is, however, sufficient for our purpose of evaluating treatment effects.
+I provide partial results to show that AdJ is able to conduct post-double selection. Further, I simulate data and apply post-double
+selection with AdJ to illustrate its beneficial properties. I also exemplify its use by means of
+an empirical example&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Causal Models and External Validity of Randomized Experiments</title>
       <link>https://jorgedelacalmedina.github.io/project/causal-models-and-external-validity-of-randomized-experiments/</link>
       <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
