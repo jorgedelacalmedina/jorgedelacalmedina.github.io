@@ -22,23 +22,6 @@
     </item>
     
     <item>
-      <title>Analysis of Testing-based Model Selection with Graphical Considerations (working paper, version 9.1.2022)</title>
-      <link>https://jorgedelacalmedina.github.io/project/analysis-of-testing-based-model-selection-with-graphical-considerations/</link>
-      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://jorgedelacalmedina.github.io/project/analysis-of-testing-based-model-selection-with-graphical-considerations/</guid>
-      <description>&lt;p&gt;In this thesis, I present the AdJ algorithm, a novel method for covariate selection that is
-appropriate for post-double selection. It exploits conditional independencies, much like
-similar graphical methods aimed at structure-learning, such as the PC-algorithm. Note,
-however, that AdJ?s goal is not to learn about the structure per se, but merely to find the set
-of parents of one target variable. This means that usually much less causal information than
-the entire DAG is retrieved. It is, however, sufficient for our purpose of evaluating treatment effects.
-I provide partial results to show that AdJ is able to conduct post-double selection. Further, I simulate data and apply post-double
-selection with AdJ to illustrate its beneficial properties. I also exemplify its use by means of
-an empirical example&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Causal Models and External Validity of Randomized Experiments</title>
       <link>https://jorgedelacalmedina.github.io/project/causal-models-and-external-validity-of-randomized-experiments/</link>
       <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
@@ -54,6 +37,23 @@ It is further argued that scientists, when conducting randomized experiments to 
       <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://jorgedelacalmedina.github.io/project/collective-mood-states-and-investment-behaviour-during-a-global-pandemic/</guid>
       <description>&lt;p&gt;In this paper, we want to investigate whether collective mood, triggered by a real event, has some influence on stock prices considering a causal structure that determines the mechanisms by which collective mood affects stock prices. We take the 2019-2020 coronavirus (SARS-CoV-2) pandemic to be an appropriate example of a real event that influences stock prices directly and causes a change in collective mood. The pandemic affects the world economy and has high media coverage; we assume thus an impact on stock markets. It represents an exogenous variation in the set of beliefs individuals have about the world but also affects their emotional states significantly (which allows us to investigate the role emotional states play in investment behaviour in the first place). To measure the variation in collective mood states, we develop a tailor-made sentiment analysis tool classifying tweets into positive/negative, active/passive and weak/strong to build a time series reflecting average Twitter sentiment over time. We perform on the resulting sentiment time series a Vector Autoregression (VAR) analysis by regressing the Standard &amp;amp; Poor’s (SP) 500 and Dow Jones Industrial Average (DJI) index to our sentiment time series. Subsequently, by conducting Granger causality tests followed by a Johansen co-integration test, we investigate whether our sentiment categories have an effect on stock prices.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Model Selection with Graphical Considerations</title>
+      <link>https://jorgedelacalmedina.github.io/project/model-selection-with-graphical-considerations/</link>
+      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://jorgedelacalmedina.github.io/project/model-selection-with-graphical-considerations/</guid>
+      <description>&lt;p&gt;In this thesis, I present the AdJ algorithm, a novel method for covariate selection that is
+appropriate for post-double selection. It exploits conditional independencies, much like
+similar graphical methods aimed at structure-learning, such as the PC-algorithm. Note,
+however, that AdJ?s goal is not to learn about the structure per se, but merely to find the set
+of parents of one target variable. This means that usually much less causal information than
+the entire DAG is retrieved. It is, however, sufficient for our purpose of evaluating treatment effects.
+I provide partial results to show that AdJ is able to conduct post-double selection. Further, I simulate data and apply post-double
+selection with AdJ to illustrate its beneficial properties. I also exemplify its use by means of
+an empirical example&lt;/p&gt;
 </description>
     </item>
     
