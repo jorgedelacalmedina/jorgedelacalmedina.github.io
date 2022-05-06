@@ -45,8 +45,8 @@ It is further argued that scientists, when conducting randomized experiments to 
       <link>https://jorgedelacalmedina.github.io/project/model-selection-with-graphical-considerations/</link>
       <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://jorgedelacalmedina.github.io/project/model-selection-with-graphical-considerations/</guid>
-      <description>&lt;p&gt;In this thesis, I present the AdJ algorithm, a novel method for covariate selection that is
-appropriate for post-double selection. It exploits conditional independencies, much like
+      <description>&lt;p&gt;In this thesis for the Umaster&amp;rsquo;s in Economics and DataScience at the University of Zurich, I present the AdJ algorithm, a novel method for covariate selection that is
+applicable for post-double selection. It exploits conditional independencies, much like
 similar graphical methods aimed at structure-learning, such as the PC-algorithm. Note,
 however, that AdJ?s goal is not to learn about the structure per se, but merely to find the set
 of parents of one target variable. This means that usually much less causal information than
